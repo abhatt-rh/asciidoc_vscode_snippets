@@ -13,11 +13,11 @@
 	},
 	"Em dash": {
 	  "body": "&#151;",
-	  "prefix": "em dash"
+	  "prefix": "em-dash"
 	},
 	"En dash": {
 	  "body": "&#150;",
-	  "prefix": "en dash"
+	  "prefix": "en-dash"
 	},
 	"Horizontal ellipsis": {
 	  "body": "&#133;",
