@@ -1,5 +1,4 @@
-# asciidoc_vscode_snippets
-AsciiDoc snippets for Visual Studio Code
+# AsciiDoc snippets for Visual Studio Code
 
 VS Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
 
@@ -22,5 +21,48 @@ Here is an example of a VS Code snippet for a note:
 To test and verify if the snippets are working as expected, open a new file (without specifying the language) in VS Code and type a snippet name; for example, "note".
 
 ![](note_snippet_vscode.gif)
+
+## List of snippets included in the `vscoderh.code-snippets` file:
+| Name	      		 	     | Prefix        	| 
+| :---        		 	     |     	---:     	| 
+| 2-column table     	     | table2        	| 
+| 3-column table   	 	     | table3        	| 
+| Copyright symbol   	     | copyright     	| 
+| Em dash   		 	     | em-dash       	| 
+| En dash   		 	     | en-dash       	| 
+| Horizontal ellipsis	     | ellipsis      	| 
+| Paragraph symbol 	 	     | para          	| 
+| Plus or minus     		 | plus or minus 	| 
+| Registered trademark symbol| trademark-r   	| 
+| Section symbol   			 | section       	| 
+| Trademark symbol   		 | trademark     	| 
+| anchor id tag   			 | anchor-id     	| 
+| bash codeblock   			 | bash-codeblock	| 
+| bold   					 | bold          	| 
+| callout   				 | callout       	| 
+| caution   				 | caution      	| 
+| command      				 | command      	| 
+| email   				 	 | email         	|
+| filename   				 | filename      	|
+| ifdef   				     | ifdef        	|
+| ifeval   				 	 | ifeval        	|
+| ifndef   				 	 | ifndef        	|
+| image   				 	 | image         	|
+| important   				 | imp           	|
+| include   				 | incl         	|
+| italic   				  	 | italic        	|
+| link   				 	 | link          	|
+| literal   				 | literal       	|
+| literal codeblock   		 | literal-codeblock|
+| note   				 	 | note        		|
+| package   				 | package        	|
+| step cli   				 | step-cli        	|
+| subscript   				 | sub        		|
+| superscript   			 | sup        		|
+| tip   				 	 | tip        		|
+| warning   				 | warn        		|
+| xml codeblock   			 | xml-codeblock    |
+| xref   				     | xref        		|
+| yaml codeblock   			 | yaml-codeblock   |
 
 For more information about creating your own VS Code Snippets, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).
