@@ -4,9 +4,11 @@ VS Code snippets are templates that make it easier to enter repeating code patte
 
 VS Code Snippets are written in JSON. Each snippet is defined under a snippet `name` and has a `scope`, `prefix`, `body`, and `description`. If `scope` is left empty or omitted, the snippet gets applied to all languages. The `prefix` is what is used to trigger the snippet and the body will be expanded and inserted.
 
-In the `vscoderh.code-snippets` file, I have only specified the `name`, `prefix`, and `body` parameters. Since the `name` seemed intuitive to me, I dropped the `description`.
+The `vscoderh.code-snippets` file includes snippets for the AsciiDoc language that is used at Red Hat for authoring content. 
 
-Here is an example of a VS Code snippet for a note:
+I have only specified the `name`, `prefix`, and `body` parameters. Since the `name` seemed intuitive to me, I dropped the `description`.
+
+Here is an example of a VS Code snippet for a *NOTE*:
 
 ```
 "note": {
