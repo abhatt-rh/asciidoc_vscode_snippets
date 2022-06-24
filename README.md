@@ -1,4 +1,4 @@
-# AsciiDoc snippets for Visual Studio Code
+# Visual Studio Code snippets for AsciiDoc 
 
 VS Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
 
