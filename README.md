@@ -67,4 +67,4 @@ To test and verify if the snippets are working as expected, open a new file (wit
 | xref   				     | xref        		|
 | yaml codeblock   			 | yaml-codeblock   |
 
-For more information about creating your own VS Code Snippets, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).
+For more information about creating your own VS Code snippets, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).
