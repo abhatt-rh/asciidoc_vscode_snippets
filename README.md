@@ -25,25 +25,25 @@ To test and verify if the snippets are working as expected, open a new file (wit
 ![](note_snippet_vscode.gif)
 
 ## List of snippets included in the snippets file:
-| Name	      		 	     | Prefix        	| 
-| :---        		 	     |     	---:     	| 
-| 2-column table     	     | table2        	| 
-| 3-column table   	 	     | table3        	| 
-| Copyright symbol   	     | copyright     	| 
-| Em dash   		 	     | em-dash       	| 
-| En dash   		 	     | en-dash       	| 
-| Horizontal ellipsis	     | ellipsis      	| 
-| Paragraph symbol 	 	     | para          	| 
-| Plus or minus     		 | plus or minus 	| 
-| Registered trademark symbol| trademark-r   	| 
-| Section symbol   			 | section       	| 
-| Trademark symbol   		 | trademark     	| 
-| anchor id tag   			 | anchor-id     	| 
-| bash codeblock   			 | bash-codeblock	| 
-| bold   					 | bold          	| 
-| callout   				 | callout       	| 
-| caution   				 | caution      	| 
-| command      				 | command      	| 
+| Name	      		 	     | Prefix        	|
+| :---        		 	     |     	---:     	|
+| 2-column table     	     | table2        	|
+| 3-column table   	 	     | table3        	|
+| Copyright symbol   	     | copyright     	|
+| Em dash   		 	     | em-dash       	|
+| En dash   		 	     | en-dash       	|
+| Horizontal ellipsis	     | ellipsis      	|
+| Paragraph symbol 	 	     | para          	|
+| Plus or minus     		 | plus or minus 	|
+| Registered trademark symbol| trademark-r   	|
+| Section symbol   			 | section       	|
+| Trademark symbol   		 | trademark     	|
+| anchor id tag   			 | anchor-id     	|
+| bash codeblock   			 | bash-codeblock	|
+| bold   					 | bold          	|
+| callout   				 | callout       	|
+| caution   				 | caution      	|
+| command      				 | command      	|
 | email   				 	 | email         	|
 | filename   				 | filename      	|
 | ifdef   				     | ifdef        	|
@@ -66,5 +66,10 @@ To test and verify if the snippets are working as expected, open a new file (wit
 | xml codeblock   			 | xml-codeblock    |
 | xref   				     | xref        		|
 | yaml codeblock   			 | yaml-codeblock   |
+| assembly   			 | assembly   |
+| concept   			 | concept   |
+| procedure   			 | procedure   |
+| reference   			 | reference   |
+| technology preview   			 | tech-preview   |
 
 For more information about creating your own VS Code snippets, see [Create your own snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_create-your-own-snippets).
