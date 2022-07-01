@@ -10,16 +10,9 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:snippets-for-asciidoc.helloWorld"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
-		"commands": [
-			{
-				"command": "snippets-for-asciidoc.helloWorld",
-				"title": "Hello World"
-			}
-		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
