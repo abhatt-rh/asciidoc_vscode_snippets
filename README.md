@@ -24,7 +24,7 @@ Here is an example of a VS Code snippet for a *NOTE*:
 
 To test and verify if the snippets are working as expected, open a new file (without specifying the language) in VS Code and type a snippet name and press **Tab**; for example, "note".
 
-![](note_snippet_vscode.gif)
+![](images/note_snippet_vscode.gif)
 
 ## List of snippets included in the snippets file:
 | Name	      		 	     | Prefix        	|
