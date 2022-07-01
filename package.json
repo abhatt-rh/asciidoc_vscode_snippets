@@ -1,7 +1,7 @@
 {
   "name": "snippets-for-asciidoc",
 	"displayName": "Snippets for AsciiDoc",
-	"description": "Snippets for AsciiDoc documents",
+	"description": "Snippets for AsciiDoc documents that is used at Red Hat for authoring content",
 	"version": "0.0.1",
 	"engines": {
 		"vscode": "^1.68.0"
