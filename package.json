@@ -2,7 +2,19 @@
   "name": "snippets-for-asciidoc",
 	"displayName": "Snippets for AsciiDoc",
 	"description": "Snippets for AsciiDoc documents that is used at Red Hat for authoring content",
+	"license": "Apache-2.0",
 	"version": "0.0.1",
+	"publisher": "abhatt-rh",
+	"author": {
+		"name": "Avani Bhatt"
+	},
+	"bugs": {
+		"url": "https://github.com/abhatt-rh/asciidoc_vscode_snippets/issues"
+	  },
+	  "repository": {
+		"type": "git",
+		"url": "https://github.com/abhatt-rh/asciidoc_vscode_snippets.git"
+	},
 	"engines": {
 		"vscode": "^1.68.0"
 	},
