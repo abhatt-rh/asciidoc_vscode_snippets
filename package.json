@@ -22,9 +22,16 @@
 		"Other"
 	],
 	"activationEvents": [
+		"onLanguage:asciidoc"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
+		"snippets": [
+			{
+				"language": "asciidoc",
+				"path": "snippets/asciidoc-vscode.code-snippets"
+			}
+		]
 	},
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
