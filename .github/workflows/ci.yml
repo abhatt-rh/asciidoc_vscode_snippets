@@ -35,5 +35,8 @@ jobs:
         name: binary
         path: snippets-for-asciidoc-*.vsix
     - name: Publish
+      shell: bash
       if: ${{ github.ref_type == 'tag' }}
-      run: vsce publish -p {{ secrets.VSCODE_TOKEN}}
+      env:
+        VSCODE_TOKEN: ${{ secrets.VSCODE_TOKEN }}
+      run: vsce publish -p "$VSCODE_TOKEN"
