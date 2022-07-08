@@ -1,3 +1,6 @@
+[![GitHub tag](https://img.shields.io/github/tag/abhatt-rh/asciidoc_vscode_snippets.svg)]()
+[![License](https://img.shields.io/badge/license-Apache%202-blue.svg)]()
+
 # Visual Studio Code snippets for AsciiDoc 
 
 VS Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
