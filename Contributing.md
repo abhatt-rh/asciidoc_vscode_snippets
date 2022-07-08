@@ -1,6 +1,12 @@
 # How to provide more snippets
 
-All snippets are stored in `snippets/asciidoc-vscode.code-snippets` file. New snippets must be added in this file. Documentation on the syntax to use is available on [official VS Code documentation](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax).
+All snippets are stored in `snippets/asciidoc-vscode.code-snippets` file.
+
+VS Code Snippets are written in JSON. Each snippet is defined under a snippet `name` and has a `scope`, `prefix`, `body`, and `description`. If `scope` is left empty or omitted, the snippet gets applied to all languages. The `prefix` is what is used to trigger the snippet and the body will be expanded and inserted.
+
+When adding a new snippet, the readme section [List of snippets included](README.md#list-of-snippets-included) needs to be updated.
+
+More documentation on the syntax to use is available on [official VS Code documentation](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax).
 
 # How to perform a release
 
