@@ -19,7 +19,7 @@
 		"vscode": "^1.68.0"
 	},
 	"categories": [
-		"Other"
+		"Snippets"
 	],
 	"activationEvents": [
 		"onLanguage:asciidoc"
