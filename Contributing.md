@@ -1,3 +1,7 @@
+# How to provide more snippets
+
+All snippets are stored in `snippets/asciidoc-vscode.code-snippets` file. New snippets must be added in this file. Documentation on the syntax to use is available on [official VS Code documentation](https://code.visualstudio.com/docs/editor/userdefinedsnippets#_snippet-syntax).
+
 # How to perform a release
 
 - Ensure that you have rights to create a tag on https://github.com/abhatt-rh/asciidoc_vscode_snippets
