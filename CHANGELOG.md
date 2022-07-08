@@ -4,6 +4,10 @@ All notable changes to the "snippets-for-asciidoc" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## 0.0.2
+
+- Improve assembly snippet
+
+## 0.0.1
 
 - Initial release
