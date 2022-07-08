@@ -1,7 +1,7 @@
 {
   "name": "snippets-for-asciidoc",
 	"displayName": "Snippets for AsciiDoc",
-	"description": "Snippets for AsciiDoc documents that is used at Red Hat for authoring content",
+	"description": "Snippets for AsciiDoc documents useful for authoring content for Red Hat related technologies.",
 	"license": "Apache-2.0",
 	"version": "0.0.1",
 	"publisher": "abhatt-rh",
@@ -20,6 +20,11 @@
 	},
 	"categories": [
 		"Snippets"
+	],
+	"keywords": [
+		"snippet",
+		"AsciiDoc",
+		"Red Hat"
 	],
 	"activationEvents": [
 		"onLanguage:asciidoc"
