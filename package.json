@@ -1,62 +1,62 @@
 {
   "name": "snippets-for-asciidoc",
-	"displayName": "Snippets for AsciiDoc",
-	"description": "Snippets for AsciiDoc documents useful for authoring content for Red Hat related technologies.",
-	"license": "Apache-2.0",
-	"version": "0.0.1",
-	"publisher": "abhatt-rh",
-	"author": {
-		"name": "Avani Bhatt"
-	},
-	"bugs": {
-		"url": "https://github.com/abhatt-rh/asciidoc_vscode_snippets/issues"
-	  },
-	  "repository": {
-		"type": "git",
-		"url": "https://github.com/abhatt-rh/asciidoc_vscode_snippets.git"
-	},
-	"engines": {
-		"vscode": "^1.68.0"
-	},
-	"categories": [
-		"Snippets"
-	],
-	"keywords": [
-		"snippet",
-		"AsciiDoc",
-		"Red Hat"
-	],
-	"activationEvents": [
-		"onLanguage:asciidoc"
-	],
-	"main": "./out/extension.js",
-	"contributes": {
-		"snippets": [
-			{
-				"language": "asciidoc",
-				"path": "snippets/asciidoc-vscode.code-snippets"
-			}
-		]
-	},
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"watch": "tsc -watch -p ./",
-		"pretest": "npm run compile && npm run lint",
-		"lint": "eslint src --ext ts",
-		"test": "node ./out/test/runTest.js"
-	},
-	"devDependencies": {
-		"@types/vscode": "^1.68.0",
-		"@types/glob": "^7.2.0",
-		"@types/mocha": "^9.1.1",
-		"@types/node": "16.x",
-		"@typescript-eslint/eslint-plugin": "^5.27.0",
-		"@typescript-eslint/parser": "^5.27.0",
-		"eslint": "^8.16.0",
-		"glob": "^8.0.3",
-		"mocha": "^10.0.0",
-		"typescript": "^4.7.2",
-		"@vscode/test-electron": "^2.1.3"
-	}
+  "displayName": "Snippets for AsciiDoc",
+  "description": "Snippets for AsciiDoc documents useful for authoring content for Red Hat related technologies.",
+  "license": "Apache-2.0",
+  "version": "0.0.2",
+  "publisher": "abhatt-rh",
+  "author": {
+    "name": "Avani Bhatt"
+  },
+  "bugs": {
+    "url": "https://github.com/abhatt-rh/asciidoc_vscode_snippets/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abhatt-rh/asciidoc_vscode_snippets.git"
+  },
+  "engines": {
+    "vscode": "^1.68.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "keywords": [
+    "snippet",
+    "AsciiDoc",
+    "Red Hat"
+  ],
+  "activationEvents": [
+    "onLanguage:asciidoc"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "asciidoc",
+        "path": "snippets/asciidoc-vscode.code-snippets"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.68.0",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "16.x",
+    "@typescript-eslint/eslint-plugin": "^5.27.0",
+    "@typescript-eslint/parser": "^5.27.0",
+    "eslint": "^8.16.0",
+    "glob": "^8.0.3",
+    "mocha": "^10.0.0",
+    "typescript": "^4.7.2",
+    "@vscode/test-electron": "^2.1.3"
+  }
 }
