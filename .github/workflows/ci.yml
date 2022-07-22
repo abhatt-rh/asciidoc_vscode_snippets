@@ -20,7 +20,7 @@ jobs:
         node-version: '16'
         cache: 'npm'
     - name: Install global dependencies
-      run: npm install -g typescript vsce
+      run: npm install -g typescript vsce ovsx
     - name: npm-ci
       run: npm ci
     - name: npm-compile
@@ -34,9 +34,16 @@ jobs:
       with:
         name: binary
         path: snippets-for-asciidoc-*.vsix
-    - name: Publish
-      shell: bash
+    - name: Publish to Open VSX Registry
+      uses: HaaLeo/publish-vscode-extension@v1
       if: ${{ github.ref_type == 'tag' }}
-      env:
-        VSCODE_TOKEN: ${{ secrets.VSCODE_TOKEN }}
-      run: vsce publish -p "$VSCODE_TOKEN"
+      id: publishToOpenVSX
+      with:
+        pat: ${{ secrets.OPEN_VSX_TOKEN }}
+    - name: Publish to Visual Studio Marketplace
+      uses: HaaLeo/publish-vscode-extension@v1
+      if: ${{ github.ref_type == 'tag' }}
+      with:
+        pat: ${{ secrets.VSCODE_TOKEN }}
+        registryUrl: https://marketplace.visualstudio.com
+        extensionFile: ${{ steps.publishToOpenVSX.outputs.vsixPath }}
