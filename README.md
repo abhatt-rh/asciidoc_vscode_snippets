@@ -18,9 +18,14 @@ Here is an example of a VS Code snippet for a *NOTE*:
     },
 ```
 
-To test and verify if the snippets are working as expected, open a new file (without specifying the language) in VS Code and type a snippet name and press **Tab**; for example, "note".
+To test and verify if the snippets are working as expected:
 
-![create a new file, start typing note , call completion with tab then accept the completion, it inserts the full content for a note](images/note_snippet_vscode.gif)
+* Ensure [VS Code AsciiDoc](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode) is installed
+* Create and/or open a new file which has `.adoc` extension in VS Code
+* Type a snippet name; for example, `note`
+* Trigger completion (usually by pressing **Ctrl+space** or **Tab**) and accept the `note` snippet by hitting `Enter` key
+
+![create a new file, start typing note , call completion with tab or Ctrl+space then accept the completion, it inserts the full content for a note](images/note_snippet_vscode.gif)
 
 # How to install
 
