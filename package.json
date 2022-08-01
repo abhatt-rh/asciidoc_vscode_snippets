@@ -26,6 +26,9 @@
     "AsciiDoc",
     "Red Hat"
   ],
+  "extensionDependencies": [
+	"asciidoctor.asciidoctor-vscode"
+  ],
   "activationEvents": [
     "onLanguage:asciidoc"
   ],
