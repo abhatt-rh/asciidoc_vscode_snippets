@@ -2,6 +2,7 @@
   "name": "snippets-for-asciidoc",
   "displayName": "Snippets for AsciiDoc",
   "description": "Snippets for AsciiDoc documents useful for authoring content for Red Hat related technologies.",
+  "icon": "images/icon_256x256.png",
   "license": "Apache-2.0",
   "version": "0.0.2",
   "publisher": "abhatt-rh",
