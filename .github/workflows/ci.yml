@@ -30,7 +30,7 @@ jobs:
     - name: build binary
       run: vsce package
     - name: Store vsix
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: binary
         path: snippets-for-asciidoc-*.vsix
