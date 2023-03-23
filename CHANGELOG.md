@@ -6,6 +6,8 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## 0.0.4
 
+- Provide icon for the extension
+
 ## 0.0.2
 
 - Add explicit dependency to VS Code AsciiDoc extension
