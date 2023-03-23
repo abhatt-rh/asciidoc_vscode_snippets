@@ -4,6 +4,8 @@ All notable changes to the "snippets-for-asciidoc" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.4
+
 ## 0.0.2
 
 - Add explicit dependency to VS Code AsciiDoc extension
