@@ -4,7 +4,7 @@
   "description": "Snippets for AsciiDoc documents useful for authoring content for Red Hat related technologies.",
   "icon": "images/icon_256x256.png",
   "license": "Apache-2.0",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "abhatt-rh",
   "author": {
     "name": "Avani Bhatt"
