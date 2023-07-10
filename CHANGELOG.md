@@ -4,6 +4,10 @@ All notable changes to the "snippets-for-asciidoc" extension will be documented 
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## 0.0.5
+
+- Provide setting to retrieve list of attributes available in completion. Defaulting to Red Hat files.
+
 ## 0.0.4
 
 - Provide icon for the extension
