@@ -41,15 +41,17 @@ More information how to search and install available on the [official VS Code do
 | :---        		 	     |     	---:     	|
 | 2-column table     	     | table2        	|
 | 3-column table   	 	     | table3        	|
-| Copyright symbol   	     | copyright     	|
-| Em dash   		 	     | em-dash       	|
-| En dash   		 	     | en-dash       	|
-| Horizontal ellipsis	     | ellipsis      	|
-| Paragraph symbol 	 	     | para          	|
-| Plus or minus     		 | plus or minus 	|
-| Registered trademark symbol| trademark-r   	|
-| Section symbol   			 | section       	|
-| Trademark symbol   		 | trademark     	|
+| copyright symbol   	     | copyright     	|
+| check mark           	     | check-mark     	|
+| cross mark			 	 | cross-mark 		|
+| em dash   		 	     | em-dash       	|
+| en dash   		 	     | en-dash       	|
+| horizontal ellipsis	     | ellipsis      	|
+| paragraph symbol 	 	     | para          	|
+| plus or minus     		 | plus or minus 	|
+| registered trademark symbol| trademark-r   	|
+| section symbol   			 | section       	|
+| trademark symbol   		 | trademark     	|
 | anchor id tag   			 | anchor-id     	|
 | bash codeblock   			 | bash-codeblock	|
 | bold   					 | bold          	|
@@ -73,6 +75,8 @@ More information how to search and install available on the [official VS Code do
 | step cli   				 | step-cli        	|
 | subscript   				 | sub        		|
 | superscript   			 | sup        		|
+| terminal codeblock	 	 | terminal-codeblock|
+| text codeblock   		 	 | text-codeblock	|
 | tip   				 	 | tip        		|
 | warning   				 | warn        		|
 | xml codeblock   			 | xml-codeblock    |
