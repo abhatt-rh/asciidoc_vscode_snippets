@@ -7,48 +7,52 @@
 	  "body": ".${1:Table title}\n[options=\"header\"]\n|====\n|${2:Column Title}|${3:Column Title}|${4:Column Title}\n|${5:content}|${6:content}|${7:content}\n|====\n$0",
 	  "prefix": "table3"
 	},
-	"Copyright symbol": {
+	"check mark": {
+	  "body": "&#10003;",
+	  "prefix": "check-mark"
+	},
+	"copyright symbol": {
 	  "body": "&#169;",
 	  "prefix": "copyright"
 	},
-	"Em dash": {
+	"em dash": {
 	  "body": "&#151;",
 	  "prefix": "em-dash"
 	},
-	"En dash": {
+	"en dash": {
 	  "body": "&#150;",
 	  "prefix": "en-dash"
 	},
-	"Horizontal ellipsis": {
+	"horizontal ellipsis": {
 	  "body": "&#133;",
 	  "prefix": "ellipsis"
 	},
-	"Paragraph symbol": {
+	"paragraph symbol": {
 	  "body": "&#182;",
 	  "prefix": "para"
 	},
-	"Plus or minus": {
+	"plus or minus": {
 	  "body": "&#177;",
 	  "prefix": "plus or minus"
 	},
-	"Registered trademark symbol": {
+	"registered trademark symbol": {
 	  "body": "&#174;",
 	  "prefix": "trademark-r"
 	},
-	"Section symbol": {
-	  "body": "&#167;",
-	  "prefix": "section"
-	},
-	"Trademark symbol": {
+	"trademark symbol": {
 	  "body": "&#153;",
 	  "prefix": "trademark"
 	},
-	"anchor id tag": {
-	  "body": "[id='${1:id}_{context}']$0",
+	"section symbol": {
+	  "body": "&#167;",
+	  "prefix": "section"
+	},
+	"anchor ID tag": {
+	  "body": "[id=\"${1:id}_{context}\"]$0",
 	  "prefix": "anchor-id"
 	},
 	"bash codeblock": {
-	  "body": "+\n[source,bash,options=\"nowrap\",role=\"white-space-pre\"]\n----\n${1:cli output}\n----\n$0",
+	  "body": "+\n[source,bash]\n----\n${1:bash script}\n----\n$0",
 	  "prefix": "bash-codeblock"
 	},
 	"bold": {
@@ -66,6 +70,10 @@
 	"command": {
 	  "body": "[command]`$1` $0",
 	  "prefix": "command"
+	},
+	"cross mark": {
+  	  "body": "&#10060;",
+      "prefix": "cross-mark"
 	},
 	"email": {
 	  "body": "mailto:${1:email address}[${2:label}] $0",
@@ -112,7 +120,7 @@
 	  "prefix": "literal"
 	},
 	"literal codeblock": {
-	  "body": "+\n[subs=\"+quotes\",options=\"nowrap\",role=\"white-space-pre\"]\n----\n${1:cli output}\n----\n$0",
+	  "body": "+\n[subs=\"+quotes\"]\n----\n${1:literal text}\n----\n$0",
 	  "prefix": "literal-codeblock"
 	},
 	"note": {
@@ -124,7 +132,7 @@
 	  "prefix": "package"
 	},
 	"step cli": {
-	  "body": ". ${1:step text}\n+\n[subs=\"+quotes\",options=\"nowrap\",role=\"white-space-pre\"]\n----\n${2:cli example}\n----\n$0",
+	  "body": ". ${1:step text}\n+\n[subs=\"+quotes\"]\n----\n${2:cli example}\n----\n$0",
 	  "prefix": "step-cli"
 	},
 	"subscript": {
@@ -135,16 +143,24 @@
 	  "body": "^$1^ $0",
 	  "prefix": "sup"
 	},
+	"text codeblock": {
+  	  "body": "[source,text]\n----\n${1:plain text}\n----\n$0",
+      "prefix": "text-codeblock"
+},
 	"tip": {
 	  "body": "[TIP]\n====\n$1\n====\n$0",
 	  "prefix": "tip"
+	},
+	"terminal codeblock": {
+  	  "body": "[source,terminal]\n----\n${1:terminal text}\n----\n$0",
+  	  "prefix": "terminal-codeblock"
 	},
 	"warning": {
 	  "body": "[WARNING]\n====\n$1\n====\n$0",
 	  "prefix": "warn"
 	},
 	"xml codeblock": {
-	  "body": "[source,xml,options=\"nowrap\",role=\"white-space-pre\"]\n----\n${1:XML text}\n----\n$0",
+	  "body": "[source,xml]\n----\n${1:XML text}\n----\n$0",
 	  "prefix": "xml-codeblock"
 	},
 	"xref": {
@@ -152,7 +168,7 @@
 	  "prefix": "xref"
 	},
 	"yaml codeblock": {
-	  "body": "[source,yaml,options=\"nowrap\",role=\"white-space-pre\"]\n----\n${1:YAML text}\n----\n$0",
+	  "body": "[source,yaml]\n----\n${1:YAML text}\n----\n$0",
 	  "prefix": "yaml-codeblock"
 	},
 	"assembly": {
@@ -273,7 +289,7 @@
 		"prefix": "tech-preview",
 		"body": [
 		  ":FeatureName: $0",
-		  "include::modules/technology-preview.adoc[leveloffset=+1]"
+		  "include::snippets/technology-preview.adoc[leveloffset=+1]"
 		],
 		"description": "To indicate that a feature is in Technology Preview"
 	  }
