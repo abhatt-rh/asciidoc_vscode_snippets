@@ -9,6 +9,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 - Fixed issue with anchor-id snippet. It now uses double quotes (`""`) for IDs instead of single quote (`''`)
 - Removed `options="nowrap",role="white-space-pre"` options for certain source code blocks
 
+## 0.0.5
+
+- Provide setting to retrieve list of attributes available in completion. Defaulting to Red Hat files.
+
 ## 0.0.4
 
 - Provide icon for the extension

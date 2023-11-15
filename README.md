@@ -7,7 +7,7 @@
 
 VS Code snippets are templates that make it easier to enter repeating code patterns, such as loops or conditional-statements.
 
-This extension provides snippets for the AsciiDoc language that is used at Red Hat for authoring content.
+This extension provides snippets for the AsciiDoc language that is used at Red Hat for authoring content. It also provides completion for shared attributes in Red Hat documentation.
 
 Additionally, it also includes snippets for Modular documentation templates (for concept, procedure, reference, and assembly) and a technology preview snippet (to indicate that a feature is in Technology Preview).
 
